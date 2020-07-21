@@ -10,17 +10,20 @@ const resumeCards = [
     title: "Back-End",
     description: "I can develop APIs with REST/GraphQL architecture",
     icon: () => <AiOutlineApi className="text-green-lighter" />,
+    clients: "https://tattooa.app",
   },
   {
     title: "Front-End",
     description:
       "Front-end develop with React, Styled-Components, Nextjs and Gatsby",
     icon: () => <FaCode className="text-green-lighter" />,
+    clients: "https://lapag.com.br",
   },
   {
     title: "Mobile",
     description: "Hibrid apps with React-Native and Flutter",
     icon: () => <AiOutlineCloudServer className="text-green-lighter" />,
+    clients: "http://sprinta.com.br",
   },
 ];
 
