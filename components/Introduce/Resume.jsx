@@ -13,10 +13,9 @@ const Resume = () => {
         <span className="text-green-lighter">React</span> stack. Beyond{" "}
         <span className="text-green-lighter">HTML</span> and{" "}
         <span className="text-green-lighter">CSS</span>, I'm familiar with the{" "}
-        <span className="text-green-lighter">Flutter</span> micro-framework on
-        back-end and the <span className="text-green-lighter">React</span>{" "}
-        library on front-end, including{" "}
-        <span className="text-green-lighter">Nextjs</span> and{" "}
+        <span className="text-green-lighter">Flutter/Dart</span> and the{" "}
+        <span className="text-green-lighter">React</span> library on front-end,
+        including <span className="text-green-lighter">Nextjs</span> and{" "}
         <span className="text-green-lighter">Gatsby</span> frameworks. I'm also
         learning how to develop{" "}
         <span className="text-green-lighter">GraphQL</span> APIs and how this
