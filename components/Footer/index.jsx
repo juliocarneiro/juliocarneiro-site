@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  FaEnvelope,
-  FaGithub,
-  FaLinkedinIn,
-  FaTelegramPlane,
-} from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaLinkedinIn, FaMedium } from "react-icons/fa";
 import { MdPhonelinkRing } from "react-icons/md";
 
 const Footer = () => {
@@ -32,6 +27,15 @@ const Footer = () => {
                 rel="noreferrer"
               >
                 <FaLinkedinIn />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.medium.com/@juliocarneiro"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaMedium />
               </a>
             </li>
           </ul>
