@@ -34,6 +34,11 @@ const Resume = () => {
         websites <span className="text-green-lighter">Tableless</span> and{" "}
         <span className="text-green-lighter">React Brasil</span>.
       </p>
+      <p>
+        <a href="https://resume.io/r/ozf6cpRam" target="_blank">
+          Resume
+        </a>
+      </p>
     </div>
   );
 };
