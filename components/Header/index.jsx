@@ -34,7 +34,7 @@ const Header = () => {
             </a>
           </li>
           <li className="flex items-center text-xs space-x-2 text-gray2">
-            <FaLinkedin className="inline-block text-lg text-white" />
+            <FaMedium className="inline-block text-lg text-white" />
             <a
               className="text-lg hover:text-green-lighter"
               href="https://www.medium.com/@juliocarneiro"
