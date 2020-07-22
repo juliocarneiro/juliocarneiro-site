@@ -9,9 +9,14 @@ const Repositories = ({ repositories }) => {
         <h3 className="text-2xl">Tech Contributions</h3>
         <p className="text-xs text-gray2">My public repositories on Github</p>
       </div>
-      {repositories.map((repository) => {
-        return <RepositoryCard key={repository.id} repository={repository} />;
-      })}
+      {repositories &&
+        repositories
+          .sort((e) => (e.stargazers_count > 0 ? -1 : 1))
+          .map((repository) => {
+            return (
+              <RepositoryCard key={repository.id} repository={repository} />
+            );
+          })}
     </div>
   );
 };

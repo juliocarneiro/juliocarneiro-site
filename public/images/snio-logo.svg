@@ -30,7 +30,7 @@
 <defs>
     <style>
       .cls-1 {
-        font-size: 291.667px;
+        font-size: 270.833px;
         fill: #fff;
         font-family: "Myriad Pro";
         font-weight: 700;
@@ -41,5 +41,5 @@
       }
     </style>
   </defs>
-  <text id="_juliocarneiro_" data-name="{juliocarneiro};" class="cls-1" x="-12.091" y="256">{julio<tspan class="cls-2">carneiro</tspan>};</text>
+  <text id="_juliocarneiro_" data-name="{ juliocarneiro };" class="cls-1" x="-5.091" y="251">{ julio<tspan class="cls-2">carneiro </tspan>};</text>
 </svg>

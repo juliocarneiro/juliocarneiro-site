@@ -20,7 +20,7 @@ module.exports = {
     // // => @media (min-width: 1280px) { ... }     // 'xl': {'min': '1280px'},
     // },
     fontFamily: {
-      mono: ['"Roboto Mono"'],
+      mono: ['"Ubuntu"'],
     },
     extend: {
       screens: {
