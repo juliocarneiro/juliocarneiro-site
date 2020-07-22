@@ -42,5 +42,6 @@
   "description": "A developer with main focus on building web solutions with a JavaScript and React stack. ",
   "display": "fullscreen",
   "start_url": "/",
-  "theme_color": ""
+  "theme_color": "#25262a",
+  "background_color": "#06092B"
 }
