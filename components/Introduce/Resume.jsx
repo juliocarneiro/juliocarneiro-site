@@ -29,6 +29,11 @@ const Resume = () => {
         <span className="text-green-lighter">Firebase</span> and{" "}
         <span className="text-green-lighter">Vercel Platform</span>.
       </p>
+      <p>
+        I write technical articles on front-end / mobile for my blog and the
+        websites <span className="text-green-lighter">Tableless</span> and{" "}
+        <span className="text-green-lighter">React Brasil</span>.
+      </p>
     </div>
   );
 };
