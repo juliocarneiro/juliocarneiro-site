@@ -18,7 +18,7 @@ const Repositories = ({ repositories }) => {
       <div className="md:m-12 sm:mx-8 sm:mb-8 xs:mb-8">
         <a
           className="text-lg hover:text-green-lighter"
-          href="https://www.github.com/juliocarneiro"
+          href="https://github.com/juliocarneiro?tab=repositories&type=source"
           target="_blank"
           rel="noreferrer"
         >
