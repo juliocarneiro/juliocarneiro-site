@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaMedium } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -31,6 +31,17 @@ const Header = () => {
               rel="noreferrer"
             >
               GitHub
+            </a>
+          </li>
+          <li className="flex items-center text-xs space-x-2 text-gray2">
+            <FaLinkedin className="inline-block text-lg text-white" />
+            <a
+              className="text-lg hover:text-green-lighter"
+              href="https://www.medium.com/@juliocarneiro"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Medium
             </a>
           </li>
         </ul>
