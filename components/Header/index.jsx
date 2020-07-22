@@ -6,7 +6,7 @@ const Header = () => {
     <div className="flex flex-wrap items-center justify-center p-6 bg-transparent xm:justify-between gap-8">
       <div className="flex flex-wrap space-y-10">
         <a href="https://juliocarneiro.com.br" className="block">
-          <img className="max-w-vs" src="/images/snio-logo.svg" />
+          <img className="max-w-vs" src="/images/snio-logo.svg" alt="Logo" />
         </a>
       </div>
       <div>
@@ -17,6 +17,7 @@ const Header = () => {
               className="text-lg hover:text-green-lighter"
               href="https://www.linkedin.com/in/juliocarneiro/"
               target="_blank"
+              rel="noreferrer"
             >
               LinkedIn
             </a>
@@ -27,6 +28,7 @@ const Header = () => {
               className="text-lg hover:text-green-lighter"
               href="https://github.com/juliocarneiro"
               target="_blank"
+              rel="noreferrer"
             >
               GitHub
             </a>

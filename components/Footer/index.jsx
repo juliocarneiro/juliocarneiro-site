@@ -13,11 +13,15 @@ const Footer = () => {
       <div className="flex flex-wrap items-center justify-center p-8 xm:justify-between sm:p-12 bg-gray0">
         <div className="flex flex-col items-center order-last mt-6 xm:mt-0 xm:order-first space-y-3">
           <a href="https://juliocarneiro.com.br" className="block">
-            <img className="max-w-vs" src="/images/snio-logo.svg" />
+            <img className="max-w-vs" src="/images/snio-logo.svg" alt="Logo" />
           </a>
           <ul className="flex space-x-4">
             <li>
-              <a href="https://github.com/juliocarneiro" target="_blank">
+              <a
+                href="https://github.com/juliocarneiro"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaGithub />
               </a>
             </li>
@@ -25,6 +29,7 @@ const Footer = () => {
               <a
                 href="https://www.linkedin.com/in/juliocarneiro/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <FaLinkedinIn />
               </a>
@@ -39,7 +44,11 @@ const Footer = () => {
           <ul className="flex flex-col items-center xm:items-start">
             <li className="flex items-center sm:text-xl space-x-2">
               <FaEnvelope className="inline-block" />
-              <a href="mailto:juliocarneiro@gmail.com" target="_blank">
+              <a
+                href="mailto:juliocarneiro@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
                 juliocarneiro@gmail.com
               </a>
             </li>
@@ -49,6 +58,7 @@ const Footer = () => {
                 target="_blank"
                 href="https://api.whatsapp.com/send?phone=5511953121823&text=Ol%C3%A1%20J%C3%BAlio!%20Vi%20seu%20perfil%20no%20Github%20e%20gostaria%20de%20entrar%20em%20contato%20com%20voc%C3%AA"
                 target="_blank"
+                rel="noreferrer"
               >
                 +55 11 95312-1823
               </a>

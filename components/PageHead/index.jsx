@@ -58,7 +58,10 @@ const PageHead = () => {
         href="/favicon-16x16.png"
       />
       <link rel="manifest" href="/manifest.json" />
-      <link rel="manifest" href="/manifest.json" />
+      <meta
+        name="description"
+        content="A developer with main focus on building web solutions with a JavaScript and React stack."
+      />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <title>Júlio Carneiro - Web Developer</title>
     </Head>

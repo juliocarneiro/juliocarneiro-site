@@ -15,6 +15,7 @@ const RepositoryCard = ({ repository }) => {
       <a
         href={html_url}
         target="_blank"
+        rel="noreferrer"
         className="font-bold hover:text-green-lighter"
       >
         {name}

@@ -12,6 +12,7 @@ const ResumeCard = ({ card }) => {
         className="inline-block text-white uppercase border-transparent border-dotted text-tiny border-b-1 hover:border-white"
         href={card.clients}
         target="_blank"
+        rel="noreferrer"
       >
         Atual Client
       </a>

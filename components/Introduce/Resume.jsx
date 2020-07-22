@@ -35,7 +35,11 @@ const Resume = () => {
         <span className="text-green-lighter">React Brasil</span>.
       </p>
       <p className="text-justify text-xm text-gray2 text-green-lighter">
-        <a href="https://resume.io/r/ozf6cpRam" target="_blank">
+        <a
+          href="https://resume.io/r/ozf6cpRam"
+          target="_blank"
+          rel="noreferrer"
+        >
           Click to view my resume
         </a>
       </p>
