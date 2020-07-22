@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 import PageHead from "../PageHead";
 import Header from "../Header";
@@ -7,28 +7,46 @@ import Introduce from "../Introduce";
 import Repositories from "../Repositories";
 import Footer from "../Footer";
 
-import getData from "../../utils/get-data";
+const Main = () => {
+  const [repos, setRepos] = useState([]);
 
-const Index = ({ repositories }) => {
+  const getData = async (username) => {
+    const responseData = await fetch(
+      `https://api.github.com/users/${username}/repos`
+    );
+    const data = await responseData.json();
+    const repositories = data.map((repository) => {
+      return {
+        id: repository.id,
+        name: repository.name,
+        description: repository.description,
+        html_url: repository.html_url,
+        language: repository.language,
+        stargazers_count: repository.stargazers_count,
+        forks_count: repository.forks_count,
+      };
+    });
+
+    return { repositories };
+  };
+
+  useEffect(() => {
+    async function fetchData() {
+      const { repositories } = await getData("juliocarneiro");
+      setRepos(repositories);
+    }
+    fetchData();
+  }, []);
   return (
     <>
       <PageHead />
       <Header />
       <Hero />
       <Introduce />
-      <Repositories repositories={repositories} />
+      <Repositories repositories={repos} />
       <Footer />
     </>
   );
 };
 
-export const getServerSideProps = async (context) => {
-  const { repositories } = await getData("juliocarneiro");
-  return {
-    props: {
-      repositories,
-    },
-  };
-};
-
-export default Index;
+export default Main;
