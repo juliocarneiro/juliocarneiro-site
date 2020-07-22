@@ -58,6 +58,7 @@ const PageHead = () => {
         href="/favicon-16x16.png"
       />
       <link rel="manifest" href="/manifest.json" />
+      <meta name="theme-color" content="#25262a"></meta>
       <meta
         name="description"
         content="A developer with main focus on building web solutions with a JavaScript and React stack."
