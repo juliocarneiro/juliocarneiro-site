@@ -29,14 +29,14 @@ const Resume = () => {
         <span className="text-green-lighter">Firebase</span> and{" "}
         <span className="text-green-lighter">Vercel Platform</span>.
       </p>
-      <p>
+      <p className="my-5 text-justify text-xm text-gray2">
         I write technical articles on front-end / mobile for my blog and the
         websites <span className="text-green-lighter">Tableless</span> and{" "}
         <span className="text-green-lighter">React Brasil</span>.
       </p>
-      <p>
+      <p className="text-justify text-xm text-gray2 text-green-lighter">
         <a href="https://resume.io/r/ozf6cpRam" target="_blank">
-          Resume
+          Click to view my resume
         </a>
       </p>
     </div>
