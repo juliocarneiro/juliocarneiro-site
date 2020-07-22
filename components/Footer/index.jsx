@@ -45,7 +45,11 @@ const Footer = () => {
             </li>
             <li className="flex items-center sm:text-xl space-x-2">
               <MdPhonelinkRing />
-              <a href="tel:55-11-95312-1823" target="_blank">
+              <a
+                target="_blank"
+                href="https://api.whatsapp.com/send?phone=5511953121823&text=Ol%C3%A1%20J%C3%BAlio!%20Vi%20seu%20perfil%20no%20Github%20e%20gostaria%20de%20entrar%20em%20contato%20com%20voc%C3%AA"
+                target="_blank"
+              >
                 +55 11 95312-1823
               </a>
             </li>

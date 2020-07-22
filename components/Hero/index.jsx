@@ -14,7 +14,8 @@ const Hero = () => {
         <p className="text-sm text-gray2">I enjoy building web solutions.</p>
         <a
           className="px-4 py-2 mt-5 border-2 rounded-sm hover:bg-green-lighter hover:text-gray1 text-green-lighter border-green-lighter"
-          href="mailto:juliocarneiro@gmail.com"
+          target="_blank"
+          href="https://api.whatsapp.com/send?phone=5511953121823&text=Ol%C3%A1%20J%C3%BAlio!%20Vi%20seu%20perfil%20no%20Github%20e%20gostaria%20de%20entrar%20em%20contato%20com%20voc%C3%AA"
         >
           Say hi!
         </a>
