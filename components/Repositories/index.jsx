@@ -22,7 +22,7 @@ const Repositories = ({ repositories }) => {
           target="_blank"
           rel="noreferrer"
         >
-          Ver mais...
+          View more...
         </a>
       </div>
     </div>
