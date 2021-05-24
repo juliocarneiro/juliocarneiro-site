@@ -19,6 +19,9 @@ const Jobs = () => {
           >
             Mitsubishi Brasil
             <br />
+            <br />
+            <img src="/images/mit.png" alt="Mitsubishi" />
+            <br />
             <span class="block text-xs text-gray2">
               Responsible for architecting the front end of the new Mitsubishi
               do Brasil website. Nextjs, Typescript, Context API & React-Hooks.
@@ -33,6 +36,10 @@ const Jobs = () => {
             class="font-bold hover:text-green-lighter"
           >
             LaPag
+            <br />
+            <br />
+            <img src="/images/lapag.png" alt="LaPag" />
+            <br />
             <span class="block text-xs text-gray2">
               Responsible for the development of the new static product website
               & blog focusing on performance and SEO using Gatsby.
@@ -47,6 +54,10 @@ const Jobs = () => {
             class="font-bold hover:text-green-lighter"
           >
             Porto Seguro
+            <br />
+            <br />
+            <img src="/images/porto.png" alt="Porto Seguro" />
+            <br />
             <span class="block text-xs text-gray2">
               Responsible for the development of a system architecture scalable
               to Porto Seguro. React, Redux & Styled-Components.
