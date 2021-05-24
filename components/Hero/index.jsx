@@ -10,8 +10,10 @@ const Hero = () => {
         <span className="inline-block w-auto px-2 py-1 text-xs text-center rounded-sm text-gray1 bg-green-lighter">
           Software Developer
         </span>
-        <h2 className="text-3xl">Hello, I’m Júlio Carneiro, a Web Developer</h2>
-        <p className="text-sm text-gray2">I enjoy building web & mobile solutions.</p>
+        <h2 className="text-3xl">Hello, I’m Júlio Carneiro</h2>
+        <p className="text-sm text-gray2">
+          I enjoy building web & mobile solutions.
+        </p>
         <a
           className="px-4 py-2 mt-5 border-2 rounded-sm hover:bg-green-lighter hover:text-gray1 text-green-lighter border-green-lighter"
           target="_blank"
