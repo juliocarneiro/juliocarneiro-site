@@ -10,12 +10,11 @@ const Repositories = ({ repositories }) => {
         <p className="text-xs text-gray2">My public repositories on Github</p>
       </div>
       {repositories
-        .sort((e) => (e.stargazers_count > 0 ? -1 : 1))
-        .sort((e) => (e.forks_count > 0 ? -1 : 1))
+        .filter((e) => e.stargazers_count > 0)
         .map((repository) => {
           return <RepositoryCard key={repository.id} repository={repository} />;
         })}
-      <div className="md:m-12 sm:mx-8 sm:mb-8 xs:mb-8">
+      <div className="md:m-12 sm:mx-12 sm:mb-12 xs:mb-12">
         <a
           className="text-lg hover:text-green-lighter"
           href="https://github.com/juliocarneiro?tab=repositories&type=source"

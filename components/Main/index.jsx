@@ -44,7 +44,7 @@ const Main = () => {
       <Header />
       <Hero />
       <Introduce />
-      {/* <Jobs /> */}
+      <Jobs />
       <Repositories repositories={repos} />
       <Footer />
     </>
