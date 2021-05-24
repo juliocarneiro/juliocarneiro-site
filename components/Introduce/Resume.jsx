@@ -10,14 +10,13 @@ const Resume = () => {
       <p className="my-5 text-justify text-xm text-gray2">
         A developer with main focus on building web solutions with a{" "}
         <span className="text-green-lighter">JavaScript</span> and{" "}
-        <span className="text-green-lighter">React</span> stack. Beyond{" "}
-        <span className="text-green-lighter">HTML</span> and{" "}
-        <span className="text-green-lighter">CSS</span>, I'm familiar with the{" "}
-        <span className="text-green-lighter">Flutter/Dart</span> and the{" "}
-        <span className="text-green-lighter">React</span> library on front-end,
+        <span className="text-green-lighter">React</span> stack 
         including <span className="text-green-lighter">Nextjs</span> and{" "}
-        <span className="text-green-lighter">Gatsby</span> frameworks. I'm also
-        learning how to develop{" "}
+        <span className="text-green-lighter">Gatsby</span> frameworks on front-end. Beyond{" "}
+        <span className="text-green-lighter">front-end</span>, I'm work with the{" "}
+        <span className="text-green-lighter">Flutter/Dart</span> and the{" "}
+        <span className="text-green-lighter">React-Native</span> library on mobile stack.
+        I'm also learning how to develop{" "}
         <span className="text-green-lighter">GraphQL</span> APIs and how this
         amazing architecture works.
       </p>

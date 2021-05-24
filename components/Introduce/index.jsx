@@ -9,9 +9,9 @@ const resumeCards = [
   {
     title: "Front-End",
     description:
-      "Front-end develop with React, Styled-Components, Nextjs and Gatsby",
+      "React, Styled-Components, Nextjs and Gatsby",
     icon: () => <FaCode className="text-green-lighter" />,
-    clients: "https://lapag.com.br",
+    clients: "https://mobiauto.com.br",
   },
   {
     title: "Mobile",
@@ -21,9 +21,9 @@ const resumeCards = [
   },
   {
     title: "Back-End",
-    description: "I can develop APIs with REST/GraphQL architecture",
+    description: "APIs with REST/Express architecture",
     icon: () => <AiOutlineApi className="text-green-lighter" />,
-    clients: "https://tattooa.app",
+    clients: "",
   },
 ];
 

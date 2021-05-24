@@ -61,10 +61,10 @@ const PageHead = () => {
       <meta name="theme-color" content="#25262a"></meta>
       <meta
         name="description"
-        content="A developer with main focus on building web solutions with a JavaScript and React stack."
+        content="A developer with main focus on building web/mobile solutions with a JavaScript and Dart stack."
       />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      <title>Júlio Carneiro - Web Developer</title>
+      <title>Júlio Carneiro - Software Developer</title>
     </Head>
   );
 };

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import PageHead from "../PageHead";
 import Header from "../Header";
+import Jobs from "../Jobs";
 import Hero from "../Hero";
 import Introduce from "../Introduce";
 import Repositories from "../Repositories";
@@ -43,6 +44,7 @@ const Main = () => {
       <Header />
       <Hero />
       <Introduce />
+      {/* <Jobs /> */}
       <Repositories repositories={repos} />
       <Footer />
     </>
