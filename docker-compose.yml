@@ -1,0 +1,29 @@
+version: '3.3'
+
+services:
+  next:
+    build:
+      context: ./
+      dockerfile: Dockerfile-dev
+    container_name: next
+    restart: always
+    volumes:
+      - ./:/app
+      - /app/node_modules
+      - /app/.next
+    ports:
+      - 3000:3000
+    env_file:
+      - .env
+  storybook:
+    build:
+      context: .
+      dockerfile: Dockerfile-storybook
+    container_name: storybook
+    restart: always
+    volumes:
+      - ./:/app
+      - /app/node_modules
+      - /app/.next
+    ports:
+      - 6006:6006
