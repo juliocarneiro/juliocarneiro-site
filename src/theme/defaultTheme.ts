@@ -1,9 +1,9 @@
 export const defaultTheme = {
   colors: {
-    body: '#FFF',
-    text: '#363537',
-    toggleBorder: '#FFF',
-    background: '#363537'
+    body: '#000',
+    text: '#fff',
+    toggleBorder: '#000',
+    background: '#fff'
   },
   grid: {
     container: '1270px'
@@ -35,6 +35,5 @@ export const defaultTheme = {
 
 export const HEADER = {
   title: 'juliocarneiro.dev',
-  description: 'senior front-end engineer',
-  email: 'juliocarneiro@gmail.com'
+  description: 'me@juliocarneiro.dev'
 }

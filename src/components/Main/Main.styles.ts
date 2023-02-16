@@ -12,9 +12,13 @@ export const Wrapper = styled.main`
     background-color: ${theme.colors.background};
     color: ${theme.colors.body};
   `}
-  p {
-    margin-top: 15px;
-    font-size: 0.7rem;
+  video {
+    z-index: 0;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
   }
   a {
     color: ${({ theme }) => theme.colors.body};
@@ -22,10 +26,13 @@ export const Wrapper = styled.main`
 `
 
 export const Title = styled.h1`
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-weight: 900;
+  z-index: 1;
 `
 
 export const Description = styled.h2`
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 400;
+  z-index: 1;
 `

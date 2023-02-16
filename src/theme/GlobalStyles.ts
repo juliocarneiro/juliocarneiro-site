@@ -26,6 +26,9 @@ export const GlobalStyles = createGlobalStyle<{ theme: any }>`
   footer, header, hgroup, menu, nav, section {
     display: block;
   }
+  *{
+    user-select: none;
+  }
   body {
     line-height: 1;
     font-size: 14px;

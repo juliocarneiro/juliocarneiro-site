@@ -10,7 +10,7 @@ describe('HomePage', () => {
         <Home />
       </ThemeProvider>
     )
-    const heading = screen.getByText(/juliocarneiro.dev/i)
+    const heading = screen.getByText(/Boilerplate/i)
     expect(heading).toBeInTheDocument()
   })
 })
