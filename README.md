@@ -9,12 +9,10 @@ This project uses lot of stuff as:
 - [TypeScript](https://www.typescriptlang.org/)
 - [NextJS](https://nextjs.org/)
 - [Styled Components](https://styled-components.com/)
-- [Jest](https://jestjs.io/)
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Husky](https://github.com/typicode/husky)
-- [Storybook](https://storybook.js.org)
 - [GiHub Actions](https://github.com/features/actions)
 - [Docker](https://www.docker.com/)
 - [Snyk](https://github.com/snyk/snyk)
@@ -59,7 +57,6 @@ docker-compose up
 - `security-fix`: fix vulnerabilities
 - `protect`: update libs with vulnerabilities
 - `generate`: generate component paste with index, test and styled (ex: `yarn generate Home`)
-- `storybook`: Initialize and watch Storybook
 
 ## Learn More
 
